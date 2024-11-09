@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bouncing Ball 3D Navbar</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spicy+Rice&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .spicy-rice {
+        font-family: "Spicy Rice", cursive;
+        font-size: 40px;
+      }
+      .poppins {
+        font-family: "Poppins", sans-serif;
+        font-size: 19px;
+      }
+    </style>
+  </head>
+  <body class="bg-blue-400 flex flex-col items-center min-h-screen">
+    <div
+      class="w-full max-w-6xl h-auto px-8 py-12 bg-gray-400 rounded-3xl shadow-lg"
+    >
+      <!-- Navbar with full width, padding, rounded corners, and space between -->
+      <div
+        class="w-full flex justify-between items-center bg-white rounded-3xl px-10 py-4 mt-5"
+      >
+        <div class="flex items-center text-gray-800 justify-start w-full">
+          <span class="text-black text-3xl mr-2">•</span>
+          <!-- Larger dot with text-3xl -->
+          <span class="font-bold spicy-rice">Bouncing Ball 3D</span>
+          <!-- Cursive and bold styling -->
+        </div>
+        <div class="flex space-x-8">
+          <a href="#" class="text-lg font-semibold">Home</a>
+          <a href="#" class="text-lg font-semibold">Game</a>
+          <a href="#" class="text-lg font-semibold">Feature</a>
+        </div>
+
+        <!-- Download App Button with rounded corners and one-line -->
+        <button
+          class="bg-blue-500 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-600 transition inline-flex items-center"
+        >
+          Download App
+        </button>
+      </div>
+
+      <!-- Page Content below navbar -->
+      <div class="w-full flex justify-between items-center px-6 py-12">
+
+        <!-- Left side with text and Download Now button -->
+        <div class="w-1/2 h-full flex flex-col justify-center items-center text-white text-cente">
+          <!-- Text centered just below the navbar -->
+          <p class="spicy-rice mb-4 text-center">
+            Bounce, Run, and Conquer the  <br />
+            Sky with Bouncing Ball 3D!
+          </p>
+
+          <!-- New paragraph with Poppins font and size 19px -->
+          <p class="poppins mb-6 text-center">
+            Challenge yourself in a gravity-defying arcade <br> adventure.
+          </p>
+
+          <!-- Download Now Button centered below the text with new styling and rounded corners -->
+          <button
+            class="bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-600 transition inline-flex items-center"
+          >
+            Download Now
+          </button>
+        </div>
+
+        <!-- Right side for images (space for future images) -->
+        <div class="w-1/2 h-full bg-gray-200 rounded-lg">
+          <!-- Placeholder for images to be added later -->
+          <div class="flex justify-center items-center w-full h-full">
+            <p class="text-center text-gray-500">Add your images here</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
