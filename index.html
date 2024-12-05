@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Speed Test</h1>
+
+        <div class="stats">
+            <div class="stat-box">
+                <p>Errors</p>
+                <p id="errors">0</p>
+            </div>
+            <div class="stat-box">
+                <p>Time (s)</p>
+                <p id="timeTaken">0</p>
+            </div>
+            <div class="stat-box">
+                <p>Accuracy (%)</p>
+                <p id="accuracy">0%</p>
+            </div>
+        </div>
+
+        <div class="paragraph" id="paragraph">
+            Typing is a skill that improves with practice. Test your accuracy and typing speed now.
+        </div>
+
+        <textarea id="inputBox" placeholder="Click here to start typing..."></textarea>
+
+        <div class="instructions-box">
+            <h2>Instructions:</h2>
+            <p>Click on the box above to start a typing session.</p>
+            <p>Words/min = Average Typing Speed</p>
+            <p>Errors = Number of errors you made</p>
+            <p>Time taken = Max. 60 secs</p>
+            <p>Accuracy = Your Typing Accuracy in %</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
